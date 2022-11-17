@@ -1,0 +1,23 @@
+body,html{
+    color:#f3f3f3;
+   }
+   p{font-size: 20px;}
+   .bg{
+       background-image: url("https://www.nawpic.com/media/2020/fnaf-nawpic-5.png");
+       background-repeat: no repeat;
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed; 
+   }
+   figure{
+       background-color: rgb(156, 156, 156);
+   }
+   nav{
+       font-size:20px;
+   }
+   @media only screen and (max-device-width: 900px) {
+   }
+   @media only screen and (max-device-width: 900px) {
+   }
+   @media only screen and (max-device-width: 700px) {
+   }

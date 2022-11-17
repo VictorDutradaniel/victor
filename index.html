@@ -1,0 +1,148 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	 <head>
+     	<meta charset="utf-8">
+		<title>Five Nights at Freddy’s</title>
+		<style type="text/css"> 
+		body{
+			margin-left: 25%;
+		}
+		#cabecalho{ 
+			width: 800px;
+			float: left;
+		}
+
+		#conteudo{
+			width: 800px;
+			float: left;
+			height: 600px;
+		}
+		#publicidade{
+			width: 200px;
+			float: left;
+			height: 600px;
+			margin-left: 16px; 
+		}
+		#rodape{
+			width: 1020px;
+			clear: both;
+			float: left;
+		}
+		#cabecalho, #rodape, #conteudo, #publicidade{
+			border-style: ridge;
+			border-color: black;
+			border-width: 1px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #menu-horizontal{
+            background-color: green;
+        }
+        #menu-horizontal ul {
+            max-width: 800px;
+            list-style: none;
+            padding: 0;
+        }
+        #menu-horizontal ul li {
+            display: inline;
+        }
+        #menu-horizontal ul li a {
+            color: #FFF;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+            transition: background .4s;
+        }
+        #menu-horizontal ul li a:hover {
+            background-color: rgb(24, 139, 233);
+        }
+        #menu-horizontal ul li:last-child a {
+            float: right;
+        }
+        .conteiner{
+		top: 50px;
+		width: 770px;
+		margin: auto;
+		position: relative;
+		color: #fff;
+		}
+
+		.conteiner img{
+		width: 100%;
+		filter: opacity(90%);
+		}
+
+		#centro{
+		position: absolute;
+		top:10%;
+		left:33%;
+		transition: translate(-50%,-50);
+		text-align: center;
+		background-color:rgba(0,0,0,0.5);
+		padding:10px;
+		}
+		#email{
+		position: absolute;
+		top:40%;
+		left:23%;
+		transition: translate(-50%,-50);
+		text-align: center;
+		background-color:rgba(0,0,0,0.5);
+		padding:10px;
+		}
+		#senha{
+		position: absolute;
+		top:50%;
+		left:23%;
+		transition: translate(-50%,-50);
+		text-align: center;
+		background-color:rgba(0,0,0,0.5);
+		padding:10px;
+		}
+		.msg{
+		 background-color: yellow;
+		}
+		input.btm-submit{
+		position: absolute;
+		right: 10px;
+		}
+		#sb{
+		position: absolute;
+		top:70%;
+		left:49%;
+		transition: translate(-50%,-50);
+		text-align: center;
+		background-color:rgba(0,0,0,0.5);
+		padding:10px;
+		}
+		</style>
+	</head>
+	<body>
+		 <div id="cabecalho">
+		 	<nav id="menu-horizontal">
+		        <ul> 
+                  <center>  <h1><a>Five Nights at Freddy’s</h1></center>
+		        </ul>
+    		</nav>
+		 </div>
+		 <div id="conteudo"><center><h1><b>Faça seu login aqui!</b></h1>
+		  <section class="conteiner">
+			<img width="770px" height="470px" src="https://media.tenor.com/8QMT9vrbWLcAAAAC/fnaf2-toy-chica.gif">
+			<div id="centro"><h2>Preencha este campo</h2></div>
+			<form action="pg2.html">	
+				<div id="email"> Digite seu usuario aqui :<input type="email" size="30" required></div>
+				<div id="senha"> Digite sua senha aqui : <input type="password" size="30"required></div>
+				<div id="sb"><input type="submit" value="enviar"></div>
+			</form>
+
+		  </section>
+		  </center>
+		 </div>
+	</body>
+</html>
